@@ -5,4 +5,4 @@ If we are dynamically loading a jar, say x.jar and there are a few classes in x.
 
 Suppose, few classes in y.jar is is depending on some other jar, say z.jar, then those classes in y.jar will fail if z.jar is not available leading to failure of x.jar as well.
 
-Place all the jar along will its dependent jars in the same folder(lets name this folder 'jars'). This is a maven project and place the 'jars' folder under resources.
+Place the jar along will its dependent jars in the same folder(lets name this folder 'jars'). This is a maven project and place the 'jars' folder under resources.
